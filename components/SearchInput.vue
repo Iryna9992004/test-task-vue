@@ -6,7 +6,7 @@
       placeholder="Search countries..."
       class="border p-2 mb-4 w-full"
       @input="emitSearch"
-    />
+    >
   </div>
 </template>
 

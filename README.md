@@ -1,6 +1,9 @@
-# Nuxt Minimal Starter
+# Test task Nuxt.js
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Features
+Country Search: Search for countries by name. Each country name is a clickable link that navigates to the country's detailed holiday page.
+Random Countries Widget: Displays information about the next holiday for three random countries, including the holiday name and date.
+Country Page: Displays a list of holidays for a selected country and year, with options to switch years from 2020 to 2030.
 
 ## Setup
 
@@ -9,15 +12,6 @@ Make sure to install dependencies:
 ```bash
 # npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -27,15 +21,6 @@ Start the development server on `http://localhost:3000`:
 ```bash
 # npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,33 +28,20 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
 
 Locally preview production build:
 
 ```bash
-# npm
 npm run preview
+```
+# Code Quality and Formatting
 
-# pnpm
-pnpm preview
+```bash
+npm run lint
 
-# yarn
-yarn preview
+npm run lint:fix
 
-# bun
-bun run preview
+npm run format
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
